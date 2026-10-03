@@ -1,0 +1,139 @@
+1
+00:00:00,800 --> 00:00:03,194
+What if your emails could do more than get clicked?
+
+2
+00:00:08,600 --> 00:00:09,508
+Meet InboxFlow.
+
+3
+00:00:09,508 --> 00:00:13,222
+An interactive email platform for modern ecommerce.
+
+4
+00:00:13,222 --> 00:00:17,506
+One workspace, from your first idea to your customer's next action.
+
+5
+00:00:18,300 --> 00:00:22,105
+Connect your commerce stack, sync your catalog, and bring your
+
+6
+00:00:22,105 --> 00:00:24,286
+products into your email workflow.
+
+7
+00:00:24,286 --> 00:00:29,121
+Here, Shopify and Klaviyo run in a clearly labeled local sandbox.
+
+8
+00:00:30,400 --> 00:00:32,031
+Start with a template.
+
+9
+00:00:32,031 --> 00:00:34,169
+Drag in real catalog products.
+
+10
+00:00:34,169 --> 00:00:36,705
+Add collections and subscription controls.
+
+11
+00:00:36,705 --> 00:00:39,639
+Fine-tune your colors and typography.
+
+12
+00:00:39,639 --> 00:00:44,423
+Then save, preview, and export a sandbox draft, from one flexible
+
+13
+00:00:44,423 --> 00:00:45,129
+editor.
+
+14
+00:00:48,400 --> 00:00:50,992
+A message becomes a starting point.
+
+15
+00:00:50,992 --> 00:00:55,352
+Preview the email, then explore products and choose options in the
+
+16
+00:00:55,352 --> 00:00:56,640
+hosted experience.
+
+17
+00:00:56,640 --> 00:01:00,238
+Email support follows the inbox's actual capabilities.
+
+18
+00:01:00,238 --> 00:01:02,468
+A browser fallback carries the rest.
+
+19
+00:01:06,200 --> 00:01:10,392
+Choose a variant, adjust the quantity, and continue to sandbox
+
+20
+00:01:10,392 --> 00:01:10,847
+checkout.
+
+21
+00:01:10,847 --> 00:01:15,218
+Then manage the next subscription delivery, review the change, and
+
+22
+00:01:15,218 --> 00:01:15,673
+confirm.
+
+23
+00:01:15,673 --> 00:01:20,302
+Fewer unnecessary steps, with clear confirmation at every important
+
+24
+00:01:20,302 --> 00:01:20,757
+moment.
+
+25
+00:01:22,300 --> 00:01:23,865
+Collect a product review.
+
+26
+00:01:23,865 --> 00:01:26,111
+Discover a customer's preferences.
+
+27
+00:01:26,111 --> 00:01:30,203
+Their feedback is saved, and the profile updates in the sandbox.
+
+28
+00:01:32,300 --> 00:01:36,250
+Back in the workspace, see recorded interactions, subscription
+
+29
+00:01:36,250 --> 00:01:38,603
+actions, and confirmed sandbox orders.
+
+30
+00:01:38,603 --> 00:01:42,921
+Ask focused questions with a transparent, rule-based analytics
+
+31
+00:01:42,921 --> 00:01:43,577
+assistant.
+
+32
+00:01:43,577 --> 00:01:44,702
+Real activity.
+
+33
+00:01:44,702 --> 00:01:45,459
+Clear context.
+
+34
+00:01:46,600 --> 00:01:47,207
+InboxFlow.
+
+35
+00:01:47,207 --> 00:01:50,260
+Make every email a moment worth opening.

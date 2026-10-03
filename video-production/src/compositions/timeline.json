@@ -1,0 +1,39 @@
+{
+  "main": [
+    {"start":0,"end":3,"kind":"email","title":"What if emails\ncould do more?","label":"HTML email preview · simulation"},
+    {"start":3,"end":5.4,"kind":"type","title":"Emails were built\nto be read.","label":"THE INBOX, REIMAGINED"},
+    {"start":5.4,"end":8,"kind":"type","title":"What if they could\nDO more?","label":"LET THE NEXT MOMENT BEGIN"},
+    {"start":8,"end":13,"kind":"desktop","clip":"dashboard","title":"Meet InboxFlow.","label":"REAL WORKSPACE · SYNTHETIC BRAND"},
+    {"start":13,"end":18,"kind":"desktop","clip":"templates","title":"Turn emails into experiences.","label":"MEADOW & MOSS"},
+    {"start":18,"end":22,"kind":"desktop","clip":"integrations","title":"Your products. Your workflow.","label":"01 / CONNECT · LOCAL SANDBOX"},
+    {"start":22,"end":26,"kind":"desktop","clip":"catalog","title":"A catalog, ready to create.","label":"24 SEEDED PRODUCTS · REAL SYNC WORKFLOW"},
+    {"start":26,"end":30,"kind":"diagram","title":"Connected, from idea to action.","label":"LOCAL SANDBOX WORKFLOW"},
+    {"start":30,"end":33,"kind":"desktop","clip":"templates","title":"Start with a little inspiration.","label":"02 / CREATE"},
+    {"start":33,"end":39,"kind":"desktop","clip":"builder","title":"Drag. Drop. Make it yours.","label":"REAL CATALOG BLOCKS · LIVE EDITOR"},
+    {"start":39,"end":42,"kind":"desktop","clip":"carousel","title":"A collection worth exploring.","label":"PRODUCT CAROUSEL BLOCK"},
+    {"start":42,"end":45,"kind":"desktop","clip":"subscription-block","title":"Build in the next delivery.","label":"SUBSCRIPTION CONTROLS"},
+    {"start":45,"end":48,"kind":"desktop","clip":"preview-export","from":4.9,"title":"Preview. Export. Keep creating.","label":"SANDBOX KLAVIYO DRAFT EXPORTED"},
+    {"start":48,"end":53,"kind":"email","title":"More than\nan email.","label":"EMAIL PREVIEW · SIMULATION"},
+    {"start":53,"end":56,"kind":"fallback","title":"The inbox sets the limits.\nThe experience keeps going.","label":"CLIENT CAPABILITIES + HOSTED FALLBACK"},
+    {"start":56,"end":66,"kind":"phone","clip":"shopping","title":"Choose your\nnext good thing.","label":"HOSTED FALLBACK · LOCAL SANDBOX","detail":"Real options.\nA quantity that suits you."},
+    {"start":66,"end":71,"kind":"phone","clip":"shopping","from":3.5,"title":"Shop smarter.","label":"REVIEW YOUR CART · SANDBOX","detail":"Family · 60 servings\nQuantity: 2"},
+    {"start":71,"end":75,"kind":"phone","clip":"checkout","title":"A clear\nconfirmation.","label":"LOCAL SANDBOX CHECKOUT","detail":"Order confirmed.\nNo payment collected."},
+    {"start":75,"end":82,"kind":"phone","clip":"subscription","title":"Stay in control\nof the next one.","label":"HOSTED SUBSCRIPTION · SANDBOX","detail":"Review. Confirm.\nDelivery moved by 7 days."},
+    {"start":82,"end":87,"kind":"phone","clip":"review","title":"Little feedback.\nBig difference.","label":"REVIEW · SANDBOX RECEIPT","detail":"Five stars.\nOne thoughtful moment."},
+    {"start":87,"end":92,"kind":"phone","clip":"form","title":"Make it\npersonal.","label":"BRANCHING FORM · SAVED RESPONSE","detail":"A preference saved.\nA profile updated."},
+    {"start":92,"end":100,"kind":"desktop","clip":"analytics","to":3.2,"title":"Meaningful moments, measured.","label":"06 / UNDERSTAND · SYNTHETIC EVENTS"},
+    {"start":100,"end":106,"kind":"desktop","clip":"assistant","title":"Good questions. Clear context.","label":"LOCAL RULE-BASED ANALYTICS ASSISTANT"},
+    {"start":106,"end":112,"kind":"close","title":"Make every email\na moment.","label":"EXPLORE THE LOCAL DEMO"}
+  ],
+  "social": [
+    {"start":0,"end":4,"kind":"email","title":"Emails could\ndo MORE.","label":"WHAT IF?"},
+    {"start":4,"end":8,"kind":"desktop","clip":"builder","title":"Drag. Drop.\nMake it yours.","label":"REAL EDITOR · SEEDED PRODUCTS"},
+    {"start":8,"end":12,"kind":"phone","clip":"shopping","title":"Choose.\nTake action.","label":"HOSTED FALLBACK · SANDBOX"},
+    {"start":12,"end":16,"kind":"phone","clip":"subscription","title":"Your delivery.\nYour call.","label":"CONFIRMED SANDBOX CHANGE"},
+    {"start":16,"end":18,"kind":"phone","clip":"review","title":"A little\nfeedback.","label":"SANDBOX REVIEW"},
+    {"start":18,"end":20,"kind":"phone","clip":"form","title":"A personal\nnext step.","label":"PREFERENCE SAVED"},
+    {"start":20,"end":23,"kind":"desktop","clip":"analytics","to":3.2,"title":"See what\nhappened.","label":"SYNTHETIC ANALYTICS"},
+    {"start":23,"end":25,"kind":"desktop","clip":"assistant","title":"Ask a good\nquestion.","label":"LOCAL RULE-BASED ASSISTANT"},
+    {"start":25,"end":30,"kind":"close","title":"Make every email\na moment.","label":"EXPLORE THE LOCAL DEMO"}
+  ]
+}

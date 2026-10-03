@@ -1,0 +1,19 @@
+# Try the application
+
+Start `pnpm demo`, then use the seeded owner credentials from README. Everything below changes local sandbox state.
+
+1. **Build an email.** Open Email templates → Create template. Add or drag a product block, select catalog items, change its style, reorder blocks, and save. Reload to verify persistence. Undo/redo and version restore operate on validated documents; restoration creates a new revision after saving. Publish records a local status and enforces plan limits.
+2. **Preview/export.** Select a preview recipient, click Preview, inspect the HTML/AMP/text outputs and validator result, and download MIME. Follow a recipient link. Local HTTP AMP uses static links; HTTPS fixtures exercise dynamic AMP. Export sandbox draft persists a Klaviyo provider template plus all local MIME alternatives.
+3. **Shop.** Open Products → choose an item → Create demo shopping link. Select variants, purchase options, quantities and several items. Review the cart and confirm. Continue to sandbox checkout and confirm the order. Repeating confirmation returns the same order; no payment is collected.
+4. **Manage a delivery.** Preview the seeded delivery template with Customer 1–6. Open its recipient link; select delay, skip, quantity, swap, plan, one-time item or immediate shipment. Review the specific change and confirm. The local upcoming order changes atomically.
+5. **Reactivate.** Preview the winback template with Customer 7 or 8, then confirm reactivation. Invalid stored payment status causes a real error rather than a fabricated success.
+6. **Collect feedback.** Open Forms & quizzes → Find your daily ritual. Edit question types, required flags, conditions, property mappings and outcomes. Save and create a recipient preview. Choose Calm to reveal the conditional question. Confirm answers; inspect Responses and mapped profile records through the API.
+7. **Review/SMS.** Preview the corresponding block with a recipient. Review submission stores a provider receipt and prevents duplicate product/recipient reviews. SMS requires a phone and unchecked-by-default consent checkbox; it stays pending until the demo callback is invoked. No transport sends a message.
+8. **Integrate.** Integrations → Import & edit imports sanitized mock Klaviyo text. Editing/export preserves provider version conflict checks. Live read mode accepts your own Shopify/Klaviyo credential; Shopify development-app OAuth also requires server client ID/secret. Live writes remain disabled.
+9. **Model journeys.** Create a flow/campaign, select its template and trigger, and use Configure for eligibility/provider association settings. Flow simulation saves a step log and checks consent/suppression. The ESP remains responsible for delivery.
+10. **Measure.** Analytics derives charts and revenue from persisted events. Reports save metric selections; CSV exports data. A/B Results shows samples/rates/Wilson intervals. Refine previews typed changes before Apply; Undo reverses them. Ask AI answers a small set of metric questions using read-only rules.
+11. **Administer.** Team creates copyable invitations and controls roles. Billing changes a simulated plan and shows usage/quota. Settings creates/revokes read-only metric keys, exports customer data and requires confirmation before deletion. Account can create another isolated organization.
+
+New organizations start empty. Sync catalog imports immutable fictional product fixtures and a demo profile without reading another organization's private records. Northstar Studio is intentionally empty to demonstrate isolation.
+
+Expired/revoked tokens show an error. A used token returns its prior result until expiration so a recipient can resume the cart checkout. A different replay payload is rejected. GET links cannot modify subscriptions, consent, orders or purchases.

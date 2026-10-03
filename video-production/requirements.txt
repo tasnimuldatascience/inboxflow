@@ -1,0 +1,7 @@
+Pillow>=11.0
+numpy>=2.0
+scipy>=1.14
+soundfile>=0.13
+opencv-python>=4.10
+kokoro-onnx>=0.4
+requests>=2.32

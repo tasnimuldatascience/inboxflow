@@ -1,0 +1,56 @@
+[
+  {
+    "chapter": "hook",
+    "start": 0.8,
+    "duration": 2.394,
+    "text": "What if your emails could do more than get clicked?"
+  },
+  {
+    "chapter": "reveal",
+    "start": 8.6,
+    "duration": 8.906208333333334,
+    "text": "Meet Inbox Flow. An interactive email platform for modern ecommerce. One workspace, from your first idea to your customer's next action."
+  },
+  {
+    "chapter": "connect",
+    "start": 18.3,
+    "duration": 10.821291666666667,
+    "text": "Connect your commerce stack, sync your catalog, and bring your products into your email workflow. Here, Shopify and Klaviyo run in a clearly labeled local sandbox."
+  },
+  {
+    "chapter": "build",
+    "start": 30.4,
+    "duration": 14.729333333333333,
+    "text": "Start with a template. Drag in real catalog products. Add collections and subscription controls. Fine-tune your colors and typography. Then save, preview, and export a sandbox draft, from one flexible editor."
+  },
+  {
+    "chapter": "alive",
+    "start": 48.4,
+    "duration": 14.068,
+    "text": "A message becomes a starting point. Preview the email, then explore products and choose options in the hosted experience. Email support follows the inbox's actual capabilities. A browser fallback carries the rest."
+  },
+  {
+    "chapter": "commerce",
+    "start": 66.2,
+    "duration": 14.557333333333334,
+    "text": "Choose a variant, adjust the quantity, and continue to sandbox checkout. Then manage the next subscription delivery, review the change, and confirm. Fewer unnecessary steps, with clear confirmation at every important moment."
+  },
+  {
+    "chapter": "feedback",
+    "start": 82.3,
+    "duration": 7.902666666666667,
+    "text": "Collect a product review. Discover a customer's preferences. Their feedback is saved, and the profile updates in the sandbox."
+  },
+  {
+    "chapter": "measure",
+    "start": 92.3,
+    "duration": 13.159083333333333,
+    "text": "Back in the workspace, see recorded interactions, subscription actions, and confirmed sandbox orders. Ask focused questions with a transparent, rule-based analytics assistant. Real activity. Clear context."
+  },
+  {
+    "chapter": "close",
+    "start": 106.6,
+    "duration": 3.66,
+    "text": "Inbox Flow. Make every email a moment worth opening."
+  }
+]

@@ -1,0 +1,2 @@
+$taskRepo = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+Get-CimInstance Win32_Process | Where-Object { $_.Name -eq 'node.exe' -and $_.CommandLine -and $_.CommandLine.Contains($taskRepo) -and ($_.CommandLine.Contains('next') -or $_.CommandLine.Contains('apps/api/src/main.ts') -or $_.CommandLine.Contains('scripts/dev.mjs')) } | ForEach-Object { Stop-Process -Id $_.ProcessId -ErrorAction SilentlyContinue }

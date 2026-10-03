@@ -1,0 +1,42 @@
+{
+  "origin": "http://localhost:3000",
+  "syntheticTenant": "film-meadow-20261003",
+  "discovery": [
+    {
+      "route": "/app",
+      "actualHeading": "Good things ahead, Jamie.",
+      "expectedContext": "Good things ahead"
+    },
+    {
+      "route": "/app/integrations",
+      "actualHeading": "Better, connected.",
+      "expectedContext": "Better, connected."
+    },
+    {
+      "route": "/app/products",
+      "actualHeading": "Good things to discover.",
+      "expectedContext": "Good things to discover."
+    },
+    {
+      "route": "/app/templates",
+      "actualHeading": "Email templates",
+      "expectedContext": "Email templates"
+    },
+    {
+      "route": "/app/forms",
+      "actualHeading": "Forms & quizzes",
+      "expectedContext": "Forms & quizzes"
+    },
+    {
+      "route": "/app/analytics",
+      "actualHeading": "Meaningful moments, measured.",
+      "expectedContext": "Meaningful moments, measured."
+    },
+    {
+      "route": "/app/ai",
+      "actualHeading": "Let’s make sense of your moments.",
+      "expectedContext": "Ask a good question."
+    }
+  ],
+  "verifiedAt": "2026-10-03T17:38:56.028Z"
+}

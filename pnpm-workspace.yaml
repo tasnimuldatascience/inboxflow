@@ -1,0 +1,12 @@
+packages:
+  - apps/*
+  - packages/*
+overrides:
+  "@fastify/static": 10.1.2
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: false
+  sharp: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - "@aws-sdk/client-s3@3.1146.0"

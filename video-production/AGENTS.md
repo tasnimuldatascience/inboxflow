@@ -1,0 +1,3 @@
+# Video production
+
+Use the actual running local application. Record only the dedicated `film-meadow-20261003` synthetic tenant. Never persist browser cookies, CSRF values, signed recipient URLs, credentials, or live customer records in production assets. Label sandbox provider operations and simulated email previews. Product code stays unchanged. Music and effects are original synthesized assets; preserve font/model license notices. Export playable H.264 MP4s and validate streams, duration, frame count, sound, captions, framing, and loop continuity. Cache/model files are rebuildable and not delivery assets.

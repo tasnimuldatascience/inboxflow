@@ -1,0 +1,9 @@
+# Asset provenance and licenses
+
+The electronic score, percussion, bass, arpeggios, pads, sweeps, and transition bells were synthesized specifically for this project in `scripts/audio.py`. No samples, commercial tracks, stock video, reference-product assets, or artist voice impersonations were used. Keep that source with the stems for provenance. The custom backgrounds, diagrams, browser/phone frames, envelope mark, and motion are original project graphics. The product images are existing InboxFlow repository assets. Fictional people, commerce, brands, and metrics are demo fixtures.
+
+Narration uses the generic Kokoro `af_heart` synthetic voice locally. [Kokoro-82M's model card](https://huggingface.co/hexgrad/Kokoro-82M) declares Apache 2.0 model weights. The supplied standard Apache notice is `assets/audio/Kokoro-Model-Apache-2.0.txt`; the model card is the license declaration, rather than a claim that this notice originated in the model repository. Model/voice files were downloaded from the [Kokoro ONNX v1.0 release](https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0). The [Kokoro ONNX runtime](https://github.com/thewh1teagle/kokoro-onnx) is MIT; its license is included. Model weights are not checked into Git.
+
+DM Sans and DM Serif Display come from [Google Fonts](https://github.com/google/fonts), under the SIL Open Font License 1.1. The exact accompanying license files are in `assets/fonts`. Typography extends the app's forest/cream editorial identity.
+
+`assets/licenses-manifest.json` records download URLs, file sizes, and SHA-256 checksums. Preserve license notices when redistributing dependencies. This inventory documents actual asset sources; it does not grant rights to third-party provider trademarks. Shopify and Klaviyo are named only to identify the demonstrated sandbox integrations.

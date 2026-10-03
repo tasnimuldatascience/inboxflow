@@ -1,0 +1,9 @@
+{
+  "organizationId": "film-meadow-20261003",
+  "brand": "Meadow & Moss",
+  "recipientName": "Avery Lane",
+  "synthetic": true,
+  "product": "Daily greens",
+  "expectedSubscriptionBefore": "2026-10-15",
+  "expectedSubscriptionAfter": "2026-10-22"
+}

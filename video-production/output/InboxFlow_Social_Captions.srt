@@ -1,0 +1,39 @@
+1
+00:00:00,350 --> 00:00:02,093
+What if emails could do more?
+
+2
+00:00:04,300 --> 00:00:06,743
+Build visually, with real products.
+
+3
+00:00:08,300 --> 00:00:09,346
+Choose options.
+
+4
+00:00:09,346 --> 00:00:11,437
+Continue to sandbox checkout.
+
+5
+00:00:12,300 --> 00:00:13,979
+Manage your next delivery.
+
+6
+00:00:16,300 --> 00:00:17,308
+Share feedback.
+
+7
+00:00:17,308 --> 00:00:18,909
+Discover preferences.
+
+8
+00:00:20,300 --> 00:00:21,966
+Then measure what happened.
+
+9
+00:00:25,300 --> 00:00:25,997
+InboxFlow.
+
+10
+00:00:25,997 --> 00:00:28,000
+Explore the local demo.

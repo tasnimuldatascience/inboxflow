@@ -1,0 +1,97 @@
+name: inboxflow
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: inboxflow
+      POSTGRES_USER: inboxflow
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-only-password}
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inboxflow -d inboxflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports: ["127.0.0.1:6379:6379"]
+    volumes: ["redis-data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  objectstore:
+    image: rustfs/rustfs@sha256:1803faef57627e2d9c2e7d89d655d712ddded5389040054987163043fecb6a3c
+    command: ["/data"]
+    environment:
+      RUSTFS_ACCESS_KEY: ${S3_ACCESS_KEY:-inboxflow-local}
+      RUSTFS_SECRET_KEY: ${S3_SECRET_KEY:-local-only-object-storage-password}
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_CONSOLE_ADDRESS: ":9001"
+      RUSTFS_OBS_LOG_DIRECTORY: "/tmp/rustfs-logs"
+      RUSTFS_OBS_LOGGER_LEVEL: "warn"
+    ports: ["127.0.0.1:9000:9000", "127.0.0.1:9001:9001"]
+    volumes: ["objectstore-data:/data"]
+  migrate:
+    profiles: ["app"]
+    build: .
+    command: ["pnpm", "db:seed"]
+    environment: &app-environment
+      NODE_ENV: development
+      DATABASE_URL: postgresql://inboxflow:${POSTGRES_PASSWORD:-local-only-password}@postgres:5432/inboxflow
+      REDIS_URL: redis://redis:6379
+      S3_ENDPOINT: http://objectstore:9000
+      S3_BUCKET: inboxflow-assets
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-inboxflow-local}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-local-only-object-storage-password}
+      APP_URL: http://localhost:3000
+      PUBLIC_API_URL: http://localhost:4000
+      DEMO_MODE: "true"
+      SESSION_SECRET: ${SESSION_SECRET:-local-only-change-before-production-0123456789}
+      CREDENTIAL_KEY: ${CREDENTIAL_KEY:-local-only-encryption-change-before-production-012345}
+    depends_on:
+      postgres: { condition: service_healthy }
+  api:
+    profiles: ["app"]
+    build: .
+    command: ["pnpm", "start:api"]
+    environment: *app-environment
+    ports: ["127.0.0.1:4000:4000"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:4000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  web:
+    profiles: ["app"]
+    build: .
+    command: ["pnpm", "start:web"]
+    environment:
+      API_INTERNAL_URL: http://api:4000
+      NEXT_TELEMETRY_DISABLED: "1"
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      api: { condition: service_healthy }
+  worker:
+    profiles: ["app"]
+    build: .
+    command: ["pnpm", "start:worker"]
+    environment: *app-environment
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      redis: { condition: service_healthy }
+volumes:
+  postgres-data:
+  redis-data:
+  objectstore-data:

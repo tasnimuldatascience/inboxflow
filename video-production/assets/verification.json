@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "observedRevenueDeltaCents": 8000,
+  "observedActions": [
+    "purchase_confirmed",
+    "subscription_delayed",
+    "review_submitted",
+    "form_submitted"
+  ],
+  "subscriptionNextDelivery": "2026-10-22",
+  "profilePreference": "Calm",
+  "realPaymentCollected": false,
+  "allRecordedBrowserExceptions": 0
+}

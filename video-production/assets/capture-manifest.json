@@ -1,0 +1,727 @@
+{
+  "shots": {
+    "dashboard": {
+      "file": "assets/footage/dashboard.webm",
+      "start": 1.158,
+      "end": 5.783,
+      "duration": 4.625,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    },
+    "integrations": {
+      "file": "assets/footage/integrations.webm",
+      "start": 1.077,
+      "end": 7.896,
+      "duration": 6.819,
+      "width": 1600,
+      "height": 900,
+      "marks": {
+        "Shopify-connect": 1.001,
+        "Klaviyo-connect": 3.9059999999999997
+      }
+    },
+    "catalog": {
+      "file": "assets/footage/catalog.webm",
+      "start": 1.074,
+      "end": 7.025,
+      "duration": 5.9510000000000005,
+      "width": 1600,
+      "height": 900,
+      "marks": {
+        "sync-complete": 1.047,
+        "variants-visible": 3.428
+      }
+    },
+    "templates": {
+      "file": "assets/footage/templates.webm",
+      "start": 1.155,
+      "end": 5.594,
+      "duration": 4.439,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    },
+    "builder": {
+      "file": "assets/footage/builder.webm",
+      "start": 1.116,
+      "end": 9.8,
+      "duration": 8.684000000000001,
+      "width": 1600,
+      "height": 900,
+      "marks": {
+        "product-dropped": 1.4089999999999998,
+        "style-updated": 4.426
+      }
+    },
+    "carousel": {
+      "file": "assets/footage/carousel.webm",
+      "start": 1.118,
+      "end": 6.232,
+      "duration": 5.114,
+      "width": 1600,
+      "height": 900,
+      "marks": {
+        "carousel-added": 1.9789999999999999
+      }
+    },
+    "subscription-block": {
+      "file": "assets/footage/subscription-block.webm",
+      "start": 1.133,
+      "end": 7.729,
+      "duration": 6.596,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    },
+    "preview-export": {
+      "file": "assets/footage/preview-export.webm",
+      "start": 1.126,
+      "end": 8.098,
+      "duration": 6.972000000000001,
+      "width": 1600,
+      "height": 900,
+      "marks": {
+        "html-preview": 1.009,
+        "export-complete": 4.768000000000001
+      }
+    },
+    "shopping": {
+      "file": "assets/footage/shopping.webm",
+      "start": 1.028,
+      "end": 8.521,
+      "duration": 7.493,
+      "width": 540,
+      "height": 1000,
+      "marks": {
+        "variant-chosen": 0.06400000000000006,
+        "added-to-cart": 2.403,
+        "cart-confirmed": 5.077
+      }
+    },
+    "checkout": {
+      "file": "assets/footage/checkout.webm",
+      "start": 1.057,
+      "end": 6.419,
+      "duration": 5.362,
+      "width": 540,
+      "height": 1000,
+      "marks": {
+        "confirmed-order": 2.642
+      }
+    },
+    "subscription": {
+      "file": "assets/footage/subscription.webm",
+      "start": 1.005,
+      "end": 7.319,
+      "duration": 6.314,
+      "width": 540,
+      "height": 1000,
+      "marks": {
+        "confirmation-shown": 1.698,
+        "delivery-updated": 3.6020000000000003
+      }
+    },
+    "review": {
+      "file": "assets/footage/review.webm",
+      "start": 1,
+      "end": 8.676,
+      "duration": 7.676,
+      "width": 540,
+      "height": 1000,
+      "marks": {
+        "review-written": 3.442,
+        "review-saved": 5.344
+      }
+    },
+    "form": {
+      "file": "assets/footage/form.webm",
+      "start": 1.019,
+      "end": 7.57,
+      "duration": 6.551,
+      "width": 540,
+      "height": 1000,
+      "marks": {
+        "branch-revealed": 0.020000000000000018,
+        "form-saved": 4.024
+      }
+    },
+    "responses": {
+      "file": "assets/footage/responses.webm",
+      "start": 1.082,
+      "end": 4.814,
+      "duration": 3.732,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    },
+    "analytics": {
+      "file": "assets/footage/analytics.webm",
+      "start": 1.112,
+      "end": 7.608,
+      "duration": 6.4959999999999996,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    },
+    "assistant": {
+      "file": "assets/footage/assistant.webm",
+      "start": 1.06,
+      "end": 5.184,
+      "duration": 4.1240000000000006,
+      "width": 1600,
+      "height": 900,
+      "marks": {}
+    }
+  },
+  "baseline": {
+    "demo": true,
+    "eventCount": 392,
+    "interactions": 168,
+    "revenue": 76650,
+    "currency": "USD",
+    "engagementRate": 0.625,
+    "sends": 224,
+    "counts": {
+      "purchase_confirmed": 28,
+      "product_selected": 140,
+      "email_sent": 224
+    },
+    "blocks": [],
+    "series": [
+      {
+        "date": "2026-09-05",
+        "interactions": 6,
+        "revenue": 2400
+      },
+      {
+        "date": "2026-09-06",
+        "interactions": 6,
+        "revenue": 2425
+      },
+      {
+        "date": "2026-09-07",
+        "interactions": 6,
+        "revenue": 2450
+      },
+      {
+        "date": "2026-09-08",
+        "interactions": 6,
+        "revenue": 2475
+      },
+      {
+        "date": "2026-09-09",
+        "interactions": 6,
+        "revenue": 2500
+      },
+      {
+        "date": "2026-09-10",
+        "interactions": 6,
+        "revenue": 2525
+      },
+      {
+        "date": "2026-09-11",
+        "interactions": 6,
+        "revenue": 2550
+      },
+      {
+        "date": "2026-09-12",
+        "interactions": 6,
+        "revenue": 2575
+      },
+      {
+        "date": "2026-09-13",
+        "interactions": 6,
+        "revenue": 2600
+      },
+      {
+        "date": "2026-09-14",
+        "interactions": 6,
+        "revenue": 2625
+      },
+      {
+        "date": "2026-09-15",
+        "interactions": 6,
+        "revenue": 2650
+      },
+      {
+        "date": "2026-09-16",
+        "interactions": 6,
+        "revenue": 2675
+      },
+      {
+        "date": "2026-09-17",
+        "interactions": 6,
+        "revenue": 2700
+      },
+      {
+        "date": "2026-09-18",
+        "interactions": 6,
+        "revenue": 2725
+      },
+      {
+        "date": "2026-09-19",
+        "interactions": 6,
+        "revenue": 2750
+      },
+      {
+        "date": "2026-09-20",
+        "interactions": 6,
+        "revenue": 2775
+      },
+      {
+        "date": "2026-09-21",
+        "interactions": 6,
+        "revenue": 2800
+      },
+      {
+        "date": "2026-09-22",
+        "interactions": 6,
+        "revenue": 2825
+      },
+      {
+        "date": "2026-09-23",
+        "interactions": 6,
+        "revenue": 2850
+      },
+      {
+        "date": "2026-09-24",
+        "interactions": 6,
+        "revenue": 2875
+      },
+      {
+        "date": "2026-09-25",
+        "interactions": 6,
+        "revenue": 2900
+      },
+      {
+        "date": "2026-09-26",
+        "interactions": 6,
+        "revenue": 2925
+      },
+      {
+        "date": "2026-09-27",
+        "interactions": 6,
+        "revenue": 2950
+      },
+      {
+        "date": "2026-09-28",
+        "interactions": 6,
+        "revenue": 2975
+      },
+      {
+        "date": "2026-09-29",
+        "interactions": 6,
+        "revenue": 3000
+      },
+      {
+        "date": "2026-09-30",
+        "interactions": 6,
+        "revenue": 3025
+      },
+      {
+        "date": "2026-10-01",
+        "interactions": 6,
+        "revenue": 3050
+      },
+      {
+        "date": "2026-10-02",
+        "interactions": 6,
+        "revenue": 3075
+      }
+    ],
+    "campaigns": [
+      {
+        "id": "campaign-template-film-welcome",
+        "interactions": 168,
+        "conversions": 28,
+        "revenue": 76650
+      }
+    ],
+    "recent": [
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "e987f900-ec14-4e3b-bb28-571e1d81b22e",
+        "recipient_id": "3e29eede6de628582c1c9f90008e4e04216165bc96530fed255fc4422000b8f8",
+        "event_type": "purchase_confirmed",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-0",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 3075,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:02:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "dc1b71e3-7498-486e-b34e-f819434dfbe4",
+        "recipient_id": "792dc5b01eedcbe1d4f765f4aa53715bb90ac976ea1e78e5d24af2c3dd26e16a",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-3",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "12675d9a-11aa-4877-95a5-0d1bf69b741c",
+        "recipient_id": "ddd331255c94552533228fa79cf4a2efd16ee4085c86f05ab4533b11ee0ad7a6",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-2",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "84fcd178-93f6-464a-9d88-e9ed7575423d",
+        "recipient_id": "06717f0415b642bce54f676bb6915b99a1d38f347e6a7267364be44718569837",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-1",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "6e65b9bb-59ca-443f-9f4c-532f04336772",
+        "recipient_id": "3e29eede6de628582c1c9f90008e4e04216165bc96530fed255fc4422000b8f8",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-0",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "84380527-83e9-4148-bd70-45ebb2f1fd35",
+        "recipient_id": "47afe7509c27881111788269ff02941b6ccfba190d0bcdd2956e56fa77fb8b9b",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-4",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "0d133944-2e13-4bde-9eae-ff2e716297ca",
+        "recipient_id": "3e29eede6de628582c1c9f90008e4e04216165bc96530fed255fc4422000b8f8",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-0",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "c0fb4728-1481-48cc-8b2f-527f19a78f51",
+        "recipient_id": "0df3775ce83dba463a0a8dca0ab5c59a979ac9bb29afffd47b58904e05b0235c",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-7",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "4663897c-4466-4e53-953d-0923a628f834",
+        "recipient_id": "8b14cd5d06446d6b71b5f2ae0e2eae3ca1dc8c38d814268912cc8aa74aab1381",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-6",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "22356634-953b-4d15-99fc-92de469e461b",
+        "recipient_id": "ddd331255c94552533228fa79cf4a2efd16ee4085c86f05ab4533b11ee0ad7a6",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-2",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "9a4a3002-8e0c-4635-89f8-9a0f9ff92ffc",
+        "recipient_id": "792dc5b01eedcbe1d4f765f4aa53715bb90ac976ea1e78e5d24af2c3dd26e16a",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-3",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "e9fc70e1-3d4c-40f0-a1a2-ff4168becf0e",
+        "recipient_id": "06717f0415b642bce54f676bb6915b99a1d38f347e6a7267364be44718569837",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-1",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "b00c8392-12ce-4668-b057-359a1bd6c3a2",
+        "recipient_id": "102e4bcc077ea464a38bb0c25f6ccf23c66cb6115cc77d43436395509455c7ae",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-5",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "7e200a04-acf2-4036-8d85-ef3b89043008",
+        "recipient_id": "47afe7509c27881111788269ff02941b6ccfba190d0bcdd2956e56fa77fb8b9b",
+        "event_type": "email_sent",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-27-4",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-02T12:00:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "c639f78f-2dc6-4337-8eb4-2a00e0c8d9bf",
+        "recipient_id": "3e29eede6de628582c1c9f90008e4e04216165bc96530fed255fc4422000b8f8",
+        "event_type": "purchase_confirmed",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-0",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 3050,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:02:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "97af64a8-de3e-4c6b-8504-50586c916ca7",
+        "recipient_id": "47afe7509c27881111788269ff02941b6ccfba190d0bcdd2956e56fa77fb8b9b",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-4",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "56c397b9-6613-4f07-9a6a-be9f085eb50e",
+        "recipient_id": "ddd331255c94552533228fa79cf4a2efd16ee4085c86f05ab4533b11ee0ad7a6",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-2",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "88b13dfd-02db-4d3f-9afe-3fd29398af2f",
+        "recipient_id": "3e29eede6de628582c1c9f90008e4e04216165bc96530fed255fc4422000b8f8",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-0",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "3b712e26-fb55-4cab-afa0-080e3c7286a1",
+        "recipient_id": "06717f0415b642bce54f676bb6915b99a1d38f347e6a7267364be44718569837",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-1",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:01:00.000Z"
+      },
+      {
+        "organization_id": "film-meadow-20261003",
+        "id": "6b9083a9-e61f-4e66-8fbf-88237f010894",
+        "recipient_id": "792dc5b01eedcbe1d4f765f4aa53715bb90ac976ea1e78e5d24af2c3dd26e16a",
+        "event_type": "product_selected",
+        "template_id": "template-film-welcome",
+        "message_id": "fixture-26-3",
+        "campaign_id": "campaign-template-film-welcome",
+        "block_id": null,
+        "provider_action_id": null,
+        "revenue": 0,
+        "currency": "USD",
+        "cohort": null,
+        "demo": true,
+        "metadata": {
+          "seeded": true
+        },
+        "created_at": "2026-10-01T12:01:00.000Z"
+      }
+    ],
+    "window": "Most recent 10,000 events; seeded demo range: September 2026"
+  },
+  "fixture": "film-meadow-20261003",
+  "containsCredentials": false
+}
