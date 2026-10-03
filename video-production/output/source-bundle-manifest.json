@@ -1,7 +1,7 @@
 {
   "file": "InboxFlow_Source_Project.zip",
-  "sizeBytes": 99660807,
-  "sha256": "54bd8de20fa4f1c84b7f3a3e6bf8d764c3ff074f34ca1a2e77b49fa2520e1ea7",
+  "sizeBytes": 100465320,
+  "sha256": "eac79b054340b407a930f593325494f92e0431eed0347678fb7dcfa8b9838865",
   "files": [
     ".gitignore",
     "AGENTS.md",
@@ -48,6 +48,7 @@
     "assets/footage/dashboard.webm",
     "assets/footage/form.webm",
     "assets/footage/integrations.webm",
+    "assets/footage/preview-export.webm",
     "assets/footage/responses.webm",
     "assets/footage/review.webm",
     "assets/footage/shopping.webm",
@@ -75,6 +76,8 @@
     "assets/screenshots/integrations-after.png",
     "assets/screenshots/integrations-before.png",
     "assets/screenshots/marketing-desktop.png",
+    "assets/screenshots/preview-export-after.png",
+    "assets/screenshots/preview-export-before.png",
     "assets/screenshots/responses-after.png",
     "assets/screenshots/responses-before.png",
     "assets/screenshots/review-after.png",
