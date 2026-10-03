@@ -6,6 +6,8 @@ An independent interactive-commerce email application built from public product 
 
 Browse [application and film screenshots](docs/SCREENSHOTS.md) and the [video production project](video-production/README.md). The project includes a 112-second product launch film, a 30-second vertical cut, and a silent 12-second website loop. Large footage/audio/video files are local deliverables excluded from Git; editable sources, captions, representative screenshots, licenses, and verification records are included.
 
+Download the finished MP4s and the complete source/media bundle from the [v0.1.0 release](https://github.com/tasnimuldatascience/inboxflow/releases/tag/v0.1.0). The repository and release are private.
+
 ## Run the demo
 
 Requires Node 22.12+ (Node 24 recommended) and pnpm 11.19.0.

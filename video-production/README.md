@@ -8,7 +8,7 @@ An editable film project made from real browser recordings of the running InboxF
 | `output/InboxFlow_Social_Vertical.mp4` | 30 seconds | 1080 × 1920, H.264, 30 fps | Separate timed narration, score, large captions |
 | `output/InboxFlow_Website_Hero.mp4` | 12 seconds | 1920 × 1080, H.264, 30 fps | Silent, periodic loop |
 
-The output MP4s, captured WebMs, and WAV stems are local delivery files excluded from Git. Screenshots, source compositions, captions, documentation, licenses, fixture manifests, and verification results are checked in. The 300 MB narration model is a rebuildable cache. See [production notes](docs/production-notes.md), [storyboard](docs/storyboard.md), [narration](docs/narration.md), and [asset licensing](docs/licenses.md).
+The output MP4s, captured WebMs, and WAV stems are local delivery files excluded from Git. The [private v0.1.0 release](https://github.com/tasnimuldatascience/inboxflow/releases/tag/v0.1.0) provides the three MP4s, captions and a ZIP containing the complete editable project, captured footage and audio stems. Screenshots, source compositions, captions, documentation, licenses, fixture manifests, and verification results are checked in. The 300 MB narration model is a rebuildable cache. See [production notes](docs/production-notes.md), [storyboard](docs/storyboard.md), [narration](docs/narration.md), and [asset licensing](docs/licenses.md).
 
 ## Source project and render
 

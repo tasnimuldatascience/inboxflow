@@ -9,7 +9,7 @@ with zipfile.ZipFile(path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) 
         if not source.is_file():continue
         relative=source.relative_to(ROOT)
         if '.cache' in relative.parts or '__pycache__' in relative.parts:continue
-        if source.suffix in ['.mp4','.zip','.pyc'] or source.name.startswith('preview-'):continue
+        if source.suffix in ['.mp4','.zip','.pyc'] or source.name.startswith('preview-') or source.name=='source-bundle-manifest.json':continue
         if source.name.endswith(('-tempo-input.wav','-tempo.wav')) or source.name=='voice-probe.wav':continue
         archive.write(source,Path('video-production')/relative)
         files.append(str(relative).replace('\\','/'))

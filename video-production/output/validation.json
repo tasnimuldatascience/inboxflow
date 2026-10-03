@@ -1,0 +1,94 @@
+{
+  "validatedAt": "2026-10-03T17:46:09.680207+00:00",
+  "results": [
+    {
+      "file": "InboxFlow_Launch_1080p.mp4",
+      "durationSeconds": 112.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "decodedFrames": 3360,
+      "codec": "H.264",
+      "audio": "AAC stereo 48 kHz",
+      "sizeMB": 32.94,
+      "fullDecode": "PASS",
+      "fastStart": true,
+      "sha256": "0ee997b4944c4df43d74a59e4221de7fbfdefca6cabcd3ce71b129a3fc5d1c0a",
+      "loudness": {
+        "input_i": "-16.58",
+        "input_tp": "-1.49",
+        "input_lra": "6.20",
+        "input_thresh": "-27.30",
+        "output_i": "-15.86",
+        "output_tp": "-1.50",
+        "output_lra": "4.80",
+        "output_thresh": "-26.47",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.14"
+      }
+    },
+    {
+      "file": "InboxFlow_Social_Vertical.mp4",
+      "durationSeconds": 30.0,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "decodedFrames": 900,
+      "codec": "H.264",
+      "audio": "AAC stereo 48 kHz",
+      "sizeMB": 8.65,
+      "fullDecode": "PASS",
+      "fastStart": true,
+      "sha256": "aeea10d0db919229fbf2e88e98fa66c3e6eaa2661b46fc3b518542add9081a9b",
+      "loudness": {
+        "input_i": "-16.30",
+        "input_tp": "-1.52",
+        "input_lra": "7.80",
+        "input_thresh": "-28.71",
+        "output_i": "-16.52",
+        "output_tp": "-1.50",
+        "output_lra": "5.50",
+        "output_thresh": "-28.49",
+        "normalization_type": "dynamic",
+        "target_offset": "0.52"
+      }
+    },
+    {
+      "file": "InboxFlow_Website_Hero.mp4",
+      "durationSeconds": 12.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "decodedFrames": 360,
+      "codec": "H.264",
+      "audio": "No audio stream",
+      "sizeMB": 2.74,
+      "fullDecode": "PASS",
+      "fastStart": true,
+      "sha256": "e258409afb88f7429df29c70fa8bf0f6f48b7c218308a876f8af1c2ac772aa42",
+      "loopSeamMeanAbsoluteChannelDifference": 0.3337
+    }
+  ],
+  "captionBounds": "PASS",
+  "captionMethod": "Phrase timing follows synthesized audio duration; intra-phrase segmentation uses syllable-weighted timing.",
+  "productEvidence": {
+    "synthetic": true,
+    "observedRevenueDeltaCents": 8000,
+    "observedActions": [
+      "purchase_confirmed",
+      "subscription_delayed",
+      "review_submitted",
+      "form_submitted"
+    ],
+    "subscriptionNextDelivery": "2026-10-22",
+    "profilePreference": "Calm",
+    "realPaymentCollected": false,
+    "allRecordedBrowserExceptions": 0
+  }
+}
